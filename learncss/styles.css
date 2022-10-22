@@ -1,0 +1,85 @@
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+#IDSELECTOR{
+  font-style-type: Arial;
+  font-size: 10px;
+  background-color: #ff0000;
+  padding:20px;
+  color: #000000;
+}
+body {
+  color: #b94c49;
+  background-color: #024c81;
+}
+h1 {
+  font-size: 36px;
+  text-decoration: underline;
+  background-color: lightgray;
+  padding: 20px 10px;
+  border: 10px solid #5D6063;
+  margin-bottom: 50px; 
+}
+strong, em {
+  margin: 10px;
+  background-color: #06fd00;
+}
+h2 {
+  font-size: 28px;
+}
+ol {
+  list-style-type: lower-roman;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: fantasy;
+  font-weight: normal;                              /* Add this */
+}
+.button {
+  color: #FFF;
+  background-color: #e3923e;    
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+.myClass{
+  background-color: #ffff00;
+  text-align: left;
+  width: 300px;
+  box-sizing: border-box;
+  margin: 10px;
+  color:#22bad0;
+  padding: 20px;
+}
+p{
+  color:#8b9238;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
